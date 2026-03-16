@@ -1,0 +1,19 @@
+{
+  "name": "contractor-webhook-agent",
+  "version": "1.0.0",
+  "description": "A serverless webhook for contractors to analyze project photos and send AI renders.",
+  "main": "api/webhook.js",
+  "scripts": {
+    "start": "node api/webhook.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/genai": "^0.1.2",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "resend": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
